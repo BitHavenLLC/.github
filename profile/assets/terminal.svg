@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-label="Bit Haven community terminal">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#0a0e0f"/><stop offset="1" stop-color="#050607"/></linearGradient></defs>
+<rect x="4" y="4" width="1192" height="352" rx="18" fill="url(#bg)" stroke="#39f5d0" stroke-opacity=".28"/>
+<rect x="4" y="4" width="1192" height="44" rx="18" fill="#0d1415"/>
+<circle cx="30" cy="26" r="6" fill="#ff6b6b"/><circle cx="51" cy="26" r="6" fill="#ffd166"/><circle cx="72" cy="26" r="6" fill="#39f5d0"/>
+<text x="102" y="32" fill="#6f7e7a" font-family="ui-monospace,monospace" font-size="14">bithaven@buffalo: ~/community</text>
+<g font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="17">
+<text x="38" y="88" fill="#39f5d0">$ whoami</text><text x="180" y="88" fill="#dce7e4">bit_haven</text>
+<text x="38" y="124" fill="#39f5d0">$ ./init-community --open-to-everyone</text>
+<text x="38" y="158" fill="#70807c">[</text><text x="52" y="158" fill="#39f5d0"> OK </text><text x="88" y="158" fill="#aab7b3">] curiosity</text>
+<text x="38" y="188" fill="#70807c">[</text><text x="52" y="188" fill="#39f5d0"> OK </text><text x="88" y="188" fill="#aab7b3">] creativity</text>
+<text x="38" y="218" fill="#70807c">[</text><text x="52" y="218" fill="#39f5d0"> OK </text><text x="88" y="218" fill="#aab7b3">] problem-solving</text>
+<text x="38" y="248" fill="#70807c">[</text><text x="52" y="248" fill="#39f5d0"> OK </text><text x="88" y="248" fill="#aab7b3">] community</text>
+<text x="38" y="292" fill="#39f5d0">$ echo $MISSION</text>
+<text x="38" y="324" fill="#f2f7f5">Break Virtual Walls. Build Digital Defenses.</text>
+</g></svg>
