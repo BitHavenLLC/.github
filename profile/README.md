@@ -7,6 +7,7 @@
 <a href="https://bithavenbuffalo.com/"><img src="./assets/website.svg" alt="Website"></a>
 <a href="https://discord.gg/Va36NjREvp"><img src="./assets/discord.svg" alt="Discord"></a>
 <a href="https://www.youtube.com/BitHavenLLC"><img src="./assets/youtube.svg" alt="YouTube"></a>
+<a href="https://www.linkedin.com/company/bit-haven-llc"><img src="./assets/linkedin.svg" alt="LinkedIN"></a>
 
 </div>
 
