@@ -2,7 +2,7 @@
 import json, os, urllib.request
 from pathlib import Path
 ORG=os.environ.get('ORG','BitHaven-Buffalo')
-OUT=Path('.github/profile/assets/stats.svg')
+OUT=Path('profile/assets/stats.svg')
 def api(path):
     req=urllib.request.Request('https://api.github.com'+path,headers={'Accept':'application/vnd.github+json','User-Agent':'BitHaven-Profile','Authorization':f"Bearer {os.environ['GITHUB_TOKEN']}",'X-GitHub-Api-Version':'2022-11-28'})
     with urllib.request.urlopen(req,timeout=20) as r:return json.load(r)
