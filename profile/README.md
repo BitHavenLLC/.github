@@ -94,7 +94,7 @@ Bit Haven is bigger than the code in this organization. The hackerspace is a phy
 <a href="https://bithavenbuffalo.com/"><img src="./assets/connect-website.svg" alt="Visit Bit Haven"></a>
 <a href="https://discord.gg/Va36NjREvp"><img src="./assets/connect-discord.svg" alt="Join Discord"></a>
 <a href="https://www.youtube.com/BitHavenLLC"><img src="./assets/connect-youtube.svg" alt="Watch on YouTube"></a>
-<a href="https://www.linkedin.com/company/bit-haven-llc"><img src="./assets/connect-youtube.svg" alt="LinkedIN"></a>
+<a href="https://www.linkedin.com/company/bit-haven-llc"><img src="./assets/connect-linkedin.svg" alt="LinkedIN"></a>
 
 <br><br>
 
