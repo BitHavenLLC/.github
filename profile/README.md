@@ -5,8 +5,8 @@
 <br>
 
 <a href="https://bithavenbuffalo.com/"><img src="./assets/website.svg" alt="Website"></a>
-<a href="https://discord.gg/"><img src="./assets/discord.svg" alt="Discord"></a>
-<a href="https://www.youtube.com/"><img src="./assets/youtube.svg" alt="YouTube"></a>
+<a href="https://discord.gg/Va36NjREvp"><img src="./assets/discord.svg" alt="Discord"></a>
+<a href="https://www.youtube.com/BitHavenLLC"><img src="./assets/youtube.svg" alt="YouTube"></a>
 
 </div>
 
@@ -91,8 +91,8 @@ Bit Haven is bigger than the code in this organization. The hackerspace is a phy
 <div align="center">
 
 <a href="https://bithavenbuffalo.com/"><img src="./assets/connect-website.svg" alt="Visit Bit Haven"></a>
-<a href="https://discord.gg/"><img src="./assets/connect-discord.svg" alt="Join Discord"></a>
-<a href="https://www.youtube.com/"><img src="./assets/connect-youtube.svg" alt="Watch on YouTube"></a>
+<a href="https://discord.gg/Va36NjREvp"><img src="./assets/connect-discord.svg" alt="Join Discord"></a>
+<a href="https://www.youtube.com/BitHavenLLC"><img src="./assets/connect-youtube.svg" alt="Watch on YouTube"></a>
 
 <br><br>
 
