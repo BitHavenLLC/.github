@@ -1,16 +1,50 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-label="Bit Haven community terminal">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#0a0e0f"/><stop offset="1" stop-color="#050607"/></linearGradient></defs>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#0a0e0f"/><stop offset="1" stop-color="#050607"/></linearGradient>
+<clipPath id="whoami-clip"><rect class="type-whoami" x="38" y="68" width="100" height="26"/></clipPath>
+<clipPath id="init-clip"><rect class="type-init" x="38" y="104" width="380" height="26"/></clipPath>
+<clipPath id="mission-clip"><rect class="type-mission" x="38" y="272" width="170" height="26"/></clipPath>
+</defs>
+<style>
+ .type-whoami { animation: whoami 12s steps(8, end) infinite; }
+ .type-init { animation: init 12s steps(36, end) infinite; }
+ .type-mission { animation: mission 12s steps(16, end) infinite; }
+ .identity { animation: identity 12s step-end infinite; }
+ .curiosity { animation: curiosity 12s step-end infinite; }
+ .creativity { animation: creativity 12s step-end infinite; }
+ .problem-solving { animation: problem-solving 12s step-end infinite; }
+ .community { animation: community 12s step-end infinite; }
+ .mission-output { animation: output 12s step-end infinite; }
+ .cursor { animation: blink 1s step-end infinite; }
+ @keyframes whoami { 0% { width: 0; } 8%, 100% { width: 100px; } }
+ @keyframes init { 0%, 15% { width: 0; } 35%, 100% { width: 380px; } }
+ @keyframes mission { 0%, 55% { width: 0; } 67%, 100% { width: 170px; } }
+ @keyframes identity { 0% { opacity: 0; } 10%, 100% { opacity: 1; } }
+ @keyframes curiosity { 0% { opacity: 0; } 38%, 100% { opacity: 1; } }
+ @keyframes creativity { 0% { opacity: 0; } 42%, 100% { opacity: 1; } }
+ @keyframes problem-solving { 0% { opacity: 0; } 46%, 100% { opacity: 1; } }
+ @keyframes community { 0% { opacity: 0; } 50%, 100% { opacity: 1; } }
+ @keyframes output { 0% { opacity: 0; } 70%, 100% { opacity: 1; } }
+ @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+ @media (prefers-reduced-motion: reduce) {
+  .type-whoami, .type-init, .type-mission, .identity, .curiosity,
+  .creativity, .problem-solving, .community, .mission-output, .cursor { animation: none; }
+ }
+</style>
 <rect x="4" y="4" width="1192" height="352" rx="18" fill="url(#bg)" stroke="#39f5d0" stroke-opacity=".28"/>
 <rect x="4" y="4" width="1192" height="44" rx="18" fill="#0d1415"/>
 <circle cx="30" cy="26" r="6" fill="#ff6b6b"/><circle cx="51" cy="26" r="6" fill="#ffd166"/><circle cx="72" cy="26" r="6" fill="#39f5d0"/>
 <text x="102" y="32" fill="#6f7e7a" font-family="ui-monospace,monospace" font-size="14">bithaven@buffalo: ~/community</text>
 <g font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="17">
-<text x="38" y="88" fill="#39f5d0">$ whoami</text><text x="180" y="88" fill="#dce7e4">bit_haven</text>
-<text x="38" y="124" fill="#39f5d0">$ ./init-community --open-to-everyone</text>
-<text x="38" y="158" fill="#70807c">[</text><text x="52" y="158" fill="#39f5d0"> OK </text><text x="88" y="158" fill="#aab7b3">] curiosity</text>
-<text x="38" y="188" fill="#70807c">[</text><text x="52" y="188" fill="#39f5d0"> OK </text><text x="88" y="188" fill="#aab7b3">] creativity</text>
-<text x="38" y="218" fill="#70807c">[</text><text x="52" y="218" fill="#39f5d0"> OK </text><text x="88" y="218" fill="#aab7b3">] problem-solving</text>
-<text x="38" y="248" fill="#70807c">[</text><text x="52" y="248" fill="#39f5d0"> OK </text><text x="88" y="248" fill="#aab7b3">] community</text>
-<text x="38" y="292" fill="#39f5d0">$ echo $MISSION</text>
-<text x="38" y="324" fill="#f2f7f5">Break Virtual Walls. Build Digital Defenses.</text>
+<text x="38" y="88" fill="#39f5d0" clip-path="url(#whoami-clip)">$ whoami</text><text class="identity" x="180" y="88" fill="#dce7e4">bit_haven</text>
+<text x="38" y="124" fill="#39f5d0" clip-path="url(#init-clip)">$ ./init-community --open-to-everyone</text>
+<g class="curiosity"><text x="38" y="158" fill="#70807c">[</text><text x="52" y="158" fill="#39f5d0"> OK </text><text x="88" y="158" fill="#aab7b3">] curiosity</text></g>
+<g class="creativity"><text x="38" y="188" fill="#70807c">[</text><text x="52" y="188" fill="#39f5d0"> OK </text><text x="88" y="188" fill="#aab7b3">] creativity</text></g>
+<g class="problem-solving"><text x="38" y="218" fill="#70807c">[</text><text x="52" y="218" fill="#39f5d0"> OK </text><text x="88" y="218" fill="#aab7b3">] problem-solving</text></g>
+<g class="community"><text x="38" y="248" fill="#70807c">[</text><text x="52" y="248" fill="#39f5d0"> OK </text><text x="88" y="248" fill="#aab7b3">] community</text></g>
+<text x="38" y="292" fill="#39f5d0" clip-path="url(#mission-clip)">$ echo $MISSION</text>
+<g class="mission-output">
+<text x="38" y="324" fill="#f2f7f5" textLength="430" lengthAdjust="spacingAndGlyphs">Break Virtual Walls. Build Digital Defenses.</text>
+<rect class="cursor" x="478" y="309" width="10" height="19" fill="#39f5d0"/>
+</g>
 </g></svg>

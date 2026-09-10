@@ -78,6 +78,12 @@ You don't need to already be an expert to participate.
 
 <img src="./assets/stats.svg" width="100%" alt="Bit Haven GitHub statistics">
 
+<div align="center">
+
+<img src="https://komarev.com/ghpvc/?username=BitHavenLLC&amp;label=PROFILE+VIEWS&amp;color=39f5d0&amp;style=for-the-badge" alt="Bit Haven profile view counter">
+
+</div>
+
 ## Community
 
 Bit Haven is bigger than the code in this organization. The hackerspace is a physical community in **Buffalo, New York** built around people learning from one another and making things together.
