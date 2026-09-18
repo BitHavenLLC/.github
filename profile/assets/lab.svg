@@ -1,11 +1,101 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-label="Bit Haven hackerspace lab">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#070a0b"/><stop offset="1" stop-color="#10191a"/></linearGradient><filter id="g"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
-<rect width="1200" height="300" rx="20" fill="url(#bg)" stroke="#39f5d0" stroke-opacity=".22"/>
-<g stroke="#39f5d0" stroke-opacity=".08"><path d="M0 235H1200M0 265H1200"/><path d="M70 0V300M170 0V300M270 0V300M370 0V300M470 0V300M570 0V300M670 0V300M770 0V300M870 0V300M970 0V300M1070 0V300"/></g>
-<rect x="110" y="52" width="340" height="145" rx="12" fill="#050708" stroke="#39f5d0" stroke-opacity=".48"/><rect x="130" y="72" width="300" height="105" rx="6" fill="#071312"/>
-<path d="M150 150L195 125L230 145L280 100L320 135L360 115L410 150" fill="none" stroke="#39f5d0" stroke-width="3" filter="url(#g)"/><path d="M245 197v32M205 229h80" stroke="#6e7c79" stroke-width="7" stroke-linecap="round"/>
-<rect x="555" y="105" width="215" height="100" rx="12" fill="#0a1110" stroke="#72f7ff" stroke-opacity=".48"/><rect x="575" y="125" width="175" height="60" rx="6" fill="#081a17"/><circle cx="600" cy="155" r="8" fill="#39f5d0"/><circle cx="630" cy="155" r="8" fill="#39f5d0"/><path d="M670 145h45M670 160h35M670 175h50" stroke="#7e8b88" stroke-width="5" stroke-linecap="round"/>
-<path d="M865 204l98-70" stroke="#8a9894" stroke-width="12" stroke-linecap="round"/><path d="M951 140l36-15" stroke="#39f5d0" stroke-width="5" stroke-linecap="round" filter="url(#g)"/>
-<g fill="#39f5d0" filter="url(#g)"><circle cx="1050" cy="62" r="5"/><circle cx="1110" cy="103" r="5"/><circle cx="1030" cy="153" r="5"/><circle cx="1140" cy="190" r="5"/></g><g stroke="#39f5d0" stroke-opacity=".35"><path d="M1050 62L1110 103L1030 153L1140 190M1110 103L1140 190"/></g>
-<text x="65" y="270" fill="#70807c" font-family="ui-monospace,monospace" font-size="13">HARDWARE · SOFTWARE · CYBERSECURITY · EXPERIMENTATION · COMMUNITY</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="lab-title lab-desc">
+  <title id="lab-title">Bit Haven — Make something.</title>
+  <desc id="lab-desc">An isometric electronics workbench with a code terminal, circuit board, and connected hardware. Bring your curiosity. Build with the community.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#091316"/><stop offset="1" stop-color="#060b0e"/>
+    </linearGradient>
+    <linearGradient id="bench" x2="0" y2="1">
+      <stop stop-color="#1d393d"/><stop offset="1" stop-color="#102126"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop stop-color="#39f5d0" stop-opacity=".13"/><stop offset="1" stop-color="#39f5d0" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#87b8b3" opacity=".13"/>
+    </pattern>
+    <clipPath id="frame"><rect x="1" y="1" width="1198" height="358" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="360" fill="url(#background)"/>
+    <rect x="550" width="650" height="360" fill="url(#dots)"/>
+    <ellipse cx="889" cy="180" rx="340" ry="240" fill="url(#halo)"/>
+    <path d="M556 0V360" stroke="#254044" stroke-dasharray="3 9"/>
+
+    <!-- Editorial panel -->
+    <g font-family="'Courier New',monospace">
+      <rect x="40" y="37" width="27" height="27" rx="6" fill="#39f5d0"/>
+      <path d="M47 45L52 50L47 55M55 55H61" fill="none" stroke="#081313" stroke-width="2"/>
+      <text x="80" y="56" fill="#a2bebc" font-size="13" letter-spacing="2">BIT HAVEN / THE LAB</text>
+    </g>
+    <g font-family="Arial,Helvetica,sans-serif" font-weight="900" font-size="64" letter-spacing="-3">
+      <text x="38" y="143" fill="#eff8f5">MAKE</text>
+      <text x="38" y="207" fill="#39f5d0">SOMETHING.</text>
+    </g>
+    <text x="42" y="246" fill="#a8bebb" font-family="Arial,Helvetica,sans-serif" font-size="18">Bring your curiosity. Build with the community.</text>
+    <g font-family="'Courier New',monospace" font-size="11" letter-spacing="1" fill="#c1d4d1">
+      <rect x="42" y="284" width="109" height="30" rx="15" fill="#112925" stroke="#2a5148"/>
+      <text x="59" y="303">HARDWARE</text>
+      <rect x="161" y="284" width="109" height="30" rx="15" fill="#10262c" stroke="#284c56"/>
+      <text x="178" y="303">SOFTWARE</text>
+      <rect x="280" y="284" width="109" height="30" rx="15" fill="#24251d" stroke="#4c4b35"/>
+      <text x="297" y="303">SECURITY</text>
+    </g>
+
+    <!-- Floating workbench, drawn back to front -->
+    <ellipse cx="878" cy="302" rx="247" ry="34" fill="#000" opacity=".3"/>
+    <path d="M627 231L858 125L1120 223V243L889 349L627 251Z" fill="#0b191d" stroke="#345357"/>
+    <path d="M627 231L858 125L1120 223L889 329Z" fill="url(#bench)" stroke="#557775"/>
+    <path d="M648 232L859 136L1099 223L888 317Z" fill="none" stroke="#39f5d0" stroke-opacity=".18"/>
+    <path d="M889 329V349" stroke="#345357"/>
+    <path d="M650 258L695 276M707 281L723 287" stroke="#39f5d0" stroke-width="3"/>
+
+    <!-- Terminal screen -->
+    <path d="M744 207V222L800 243L820 233L765 213V203" fill="#183237" stroke="#5b7a79"/>
+    <path d="M680 64L853 126V225L680 163Z" fill="#233f43" stroke="#72938c" stroke-linejoin="round"/>
+    <path d="M680 64L690 59L863 121V220L853 225V126Z" fill="#2b4c4e" stroke="#72938c" stroke-linejoin="round"/>
+    <path d="M690 80L842 135V209L690 155Z" fill="#071215"/>
+    <g transform="matrix(1 .36 0 1 703 95)" fill="none" stroke-linecap="round" stroke-width="3">
+      <path d="M0 0L6 5L0 10M13 10H27" stroke="#39f5d0"/>
+      <path d="M0 25H36M45 25H74M9 36H27M36 36H107M9 47H55M64 47H91" stroke="#7bdad0" opacity=".65"/>
+      <path d="M87 0H113M100 10H122" stroke="#ecbe77"/>
+    </g>
+    <circle cx="766" cy="188" r="2" fill="#39f5d0"/>
+
+    <!-- Keyboard -->
+    <path d="M702 239L745 220L830 251L787 271Z" fill="#0a181c" stroke="#537271"/>
+    <g stroke="#678883" stroke-width="2" opacity=".8">
+      <path d="M717 239L785 263M725 235L793 259M733 231L801 255"/>
+      <path d="M733 237L720 244M749 243L736 250M765 249L752 256M781 255L768 262"/>
+    </g>
+
+    <!-- Circuit board and gold contacts -->
+    <path d="M862 249L941 213L1032 247L953 284Z" fill="#102e29" stroke="#4eaa8c" stroke-width="1.5"/>
+    <g fill="none" stroke="#52b395" stroke-width="1.5">
+      <path d="M886 249L908 239L933 248M905 265L924 256M963 269L982 260L968 255M955 229L944 235L969 244L989 235"/>
+      <path d="M974 272L1009 256L997 251M877 248L892 242"/>
+    </g>
+    <path d="M918 247L943 236L972 247L947 259Z" fill="#071414" stroke="#a2c4b4"/>
+    <path d="M899 271L909 267M911 276L921 272M923 280L933 276M990 239L998 235M1002 244L1010 240" stroke="#e8bd78" stroke-width="3"/>
+    <g fill="#39f5d0"><circle cx="885" cy="250" r="2"/><circle cx="977" cy="261" r="2"/></g>
+    <path d="M1002 248C1060 265 1094 228 1068 212L1021 194" fill="none" stroke="#ecbe77" stroke-width="3"/>
+
+    <!-- Hardware module -->
+    <path d="M934 152L979 132L1040 154V197L995 217L934 195Z" fill="#10262b" stroke="#537777"/>
+    <path d="M934 152L995 174L1040 154M995 174V217" fill="none" stroke="#537777"/>
+    <path d="M947 151L980 137L1027 154L994 168Z" fill="#203e42"/>
+    <g stroke="#79a6a0" stroke-width="2"><path d="M945 165L974 175M945 173L974 183M945 181L963 187"/></g>
+    <path d="M1004 185L1029 174V189L1004 200Z" fill="#061418" stroke="#3f6968"/>
+    <circle cx="1012" cy="186" r="2" fill="#39f5d0"/>
+    <path d="M1009 143V91" stroke="#7d9a94" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="1009" cy="88" r="4" fill="#39f5d0"/>
+    <path d="M997 80Q1009 68 1021 80M989 73Q1009 53 1029 73" fill="none" stroke="#39f5d0" stroke-opacity=".5" stroke-width="2" stroke-linecap="round"/>
+
+    <g font-family="'Courier New',monospace" font-size="10" letter-spacing="2" fill="#94b6af">
+      <text x="1080" y="44">BH / 716</text>
+      <path d="M1101 285H1145V258" fill="none" stroke="#496860"/>
+      <text x="1023" y="316">IDEAS → REALITY</text>
+    </g>
+  </g>
+  <rect x="1" y="1" width="1198" height="358" rx="20" fill="none" stroke="#2b4445"/>
 </svg>
